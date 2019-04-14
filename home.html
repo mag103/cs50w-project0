@@ -6,15 +6,15 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <header class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
 
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Project0</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="navbar-nav-scroll" id="navbarNav">
+            <ul class="navbar-nav bd-navbar-nav flex-row">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
               </li>
@@ -30,11 +30,14 @@
             </ul>
           </div>
 
-      </nav>
+      </header>
 
       <div class="container">
         <div class="row">
-          <div class="col-3 py-3 px-lg-2 bg-light">
+          Picture
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-3 py-3 px-lg-2">
             <p><a href="#webInfo">Webpage information</a></p>
             <p><a href="#webContent">Webpage content</a></p>
           </div>
