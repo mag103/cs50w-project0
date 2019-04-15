@@ -1,29 +1,48 @@
-.intro {
-  color: red;
+#content {
+  margin-top: 50px;
+}
+
+h5 {
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+}
+
+.comment {
+  color: grey;
+  text-align: center;
+  font-style: italic;
 }
 
 <!-- Links styling -->
 
 a:link {
-  color: green;
+  color: #800080;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: pink;
+  color: #c299ff;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: red;
+  color: #9933ff;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: yellow;
+  color: #cc00ff;
   background-color: transparent;
   text-decoration: underline;
 }

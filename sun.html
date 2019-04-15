@@ -8,7 +8,7 @@
     <body>
       <header class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
 
-        <a class="navbar-brand" href="#">Project0</a>
+        <a class="navbar-brand" href="home.html">Project0</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,37 +16,43 @@
         <div class="navbar-nav-scroll" id="navbarNav">
             <ul class="navbar-nav bd-navbar-nav flex-row">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Solar System</a>
+                <a class="nav-link" href="solarSystem.html">Solar System</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Sun<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="sun.html">Sun<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Planets</a>
+                <a class="nav-link" href="planets.html">Planets</a>
               </li>
             </ul>
           </div>
 
       </header>
 
+      <img src="pictures/banner-sun.png" width="100%">
+
       <div class="container">
-        <div class="row">
-          <div class="col-2">
-            page content
+        <div class="row" id="content">
+          <div class="col-12 col-sm-3 py-3 px-lg-2">
+            <h5>Page content</h5>
+            <p><a href="#dwarfStar">Yellow dwarf star</a></p>
+            <p><a href="#sunSize">Size and distance</a></p>
+            <p><a href="#sunStructure">Structure</a></p>
           </div>
           <div class="col-sm">
-            <h1>Title</h1>
 
-            <div class="intro">
-              <h4>Webpage information</h4>
-              <p>text</p>
-            </div>
+            <h4 id="dwarfStar">Yellow dwarf star</h4>
+            <p>The Sun is a yellow dwarf star, a hot ball of glowing gases at the heart of our solar system. Its gravity holds the solar system together, keeping everything – from the biggest planets to the smallest particles of debris – in its orbit. The connection and interactions between the Sun and Earth drive the seasons, ocean currents, weather, climate, radiation belts and auroras. Though it is special to us, there are billions of stars like our Sun scattered across the Milky Way galaxy.</p>
 
-            <h4>Webpage content</h4>
-            <p>text</p>
+            <h4 id="sunSize">Size and distance</h4>
+            <p>With a radius of 432,168.6 miles (695,508 kilometers), our Sun is not an especially large star—many are several times bigger—but it is still far more massive than our home planet: 332,946 Earths match the mass of the Sun. The Sun’s volume would need 1.3 million Earths to fill it.</p>
+            <p>The Sun is 93 million miles (150 million kilometers) from Earth. Its nearest stellar neighbor is the Alpha Centauri triple star system: Proxima Centauri is 4.24 light years away, and Alpha Centauri A and B—two stars orbiting each other—are 4.37 light years away. A light year is the distance light travels in one year, which is equal to 5,878,499,810,000 miles or 9,460,528,400,000 kilometers.</p>
+
+            <h4 id="sunStructure">Structure</h4>
+            <p>The Sun, like others stars, is a ball of gas. In terms of the number of atoms, it is made of 91.0% hydrogen and 8.9% helium. By mass, the Sun is about 70.6% hydrogen and 27.4% helium.</p>
 
           </div>
         </div>

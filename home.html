@@ -8,7 +8,7 @@
     <body>
       <header class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
 
-        <a class="navbar-brand" href="#">Project0</a>
+        <a class="navbar-brand" href="home.html">Project0</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,52 +16,57 @@
         <div class="navbar-nav-scroll" id="navbarNav">
             <ul class="navbar-nav bd-navbar-nav flex-row">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Solar System</a>
+                <a class="nav-link" href="solarSystem.html">Solar System</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sun</a>
+                <a class="nav-link" href="sun.html">Sun</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Planets</a>
+                <a class="nav-link" href="planets.html">Planets</a>
               </li>
             </ul>
           </div>
 
       </header>
 
+      <img src="pictures/banner-welcome.png" width="100%">
+
       <div class="container">
-        <div class="row">
-          Picture
-        </div>
-        <div class="row">
+        <div class="row" id="content">
           <div class="col-12 col-sm-3 py-3 px-lg-2">
+            <h5>Page content</h5>
             <p><a href="#webInfo">Webpage information</a></p>
             <p><a href="#webContent">Webpage content</a></p>
           </div>
           <div class="col-sm">
-            <h1>Title</h1>
 
-            <div class="intro">
+            <h4 id="webInfo">Webpage information</h4>
 
-              <h4 id="webInfo">Webpage information</h4>
+            <p>This is a website created for Project0 of the Harvard's course "CS50's Web Programming with Python and JavaScript".</p>
 
-              <p>This is a website created for Project0 of the Harvard's course "CS50's Web Programming with Python and JavaScript".</p>
+            <p>Project0 is called "Homepage" and it's purpose is to create my first webpage. The objectives of the project are:</p>
 
-              <p>Project0 is called "Homepage" and it's purpose is to create my first webpage. The objectives of the project are:</p>
-
-              <ul>
-                <li>Become more comfortable with HTML and CSS to design and style webpages.</li>
-                <li>Learn to use SCSS to write more complex stylesheets for your webpages.</li>
-              </ul>
-
-            </div>
+            <ol>
+              <li>Become more comfortable with HTML and CSS to design and style webpages.</li>
+              <li>Learn to use SCSS to write more complex stylesheets for your webpages.</li>
+            </ol>
 
             <h4 id="webContent">Webpage content</h4>
 
             <p>This webpage is about the Solar System. You can find out more about it on the pages dedicated to <a href="solarSystem.html">Solar System</a> in general, the <a href="sun.html">Sun</a> and <a href="planets.html">Planets</a> - use the menu bar at the top of the page to navigate through the pages.</p>
+
+            <h4 id="webReferences">References</h4>
+            <p>To create this website, content from following places were used:</p>
+            <ul>
+              <li><a href="https://solarsystem.nasa.gov">https://solarsystem.nasa.gov</li>
+              <li><a href="https://www.solarsystemscope.com">https://www.solarsystemscope.com</li>
+              <li><a href="https://en.wikipedia.org/wiki/Solar_System">https://en.wikipedia.org/wiki/Solar_System</li>
+              <li><a href="https://www.google.com/imghp?hl=EN">Google Images</li>
+            </ul>
+
           </div>
         </div>
       </div>

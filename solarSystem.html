@@ -8,7 +8,7 @@
     <body>
       <header class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
 
-        <a class="navbar-brand" href="#">Project0</a>
+        <a class="navbar-brand" href="home.html">Project0</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,37 +16,78 @@
         <div class="navbar-nav-scroll" id="navbarNav">
             <ul class="navbar-nav bd-navbar-nav flex-row">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home.html">Home</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Solar System<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="solarSystem.html">Solar System<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sun</a>
+                <a class="nav-link" href="sun.html">Sun</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Planets</a>
+                <a class="nav-link" href="planets.html">Planets</a>
               </li>
             </ul>
           </div>
 
       </header>
 
+      <img src="pictures/banner-solar-system.png" width="100%">
+
       <div class="container">
-        <div class="row">
-          <div class="col-2">
-            page content
+        <div class="row" id="content">
+          <div class="col-12 col-sm-3 py-3 px-lg-2">
+            <h5>Page content</h5>
+            <p><a href="#whatIs">What is a Solar System?</a></p>
+            <p><a href="#systemInNumbers">Planetary system in numbers</a></p>
+            <p><a href="#biggestObjects">The biggest objects</a></p>
+            <p><a href="#system3D">Solar system in 3D</a></p>
           </div>
           <div class="col-sm">
-            <h1>Title</h1>
 
-            <div class="intro">
-              <h4>Webpage information</h4>
-              <p>text</p>
-            </div>
+            <h4 id="whatIs">What is a Solar System?</h4>
+            <p>A solar system is a star and all of the objects that travel around it—planets, moons, asteroids, comets and meteoroids. Most stars host their own planets, so there are likely tens of billions of other solar systems in the Milky Way galaxy alone. Solar systems can also have more than one star. These are called binary star systems if there are two stars, or multi-star systems if there are three or more stars.</p>
+            <p>The solar system we call home is located in an outer spiral arm of the vast Milky Way galaxy. It consists of the Sun (our star) and everything that orbits around it. This includes the eight planets and their natural satellites (such as our moon), dwarf planets and their satellites, as well as asteroids, comets and countless particles of smaller debris.</p>
 
-            <h4>Webpage content</h4>
-            <p>text</p>
+            <h4 id="systemInNumbers">Planetary system in numbers</h4>
+
+            <table>
+              <tr>
+                <th>Objects</th>
+                <th>Number</th>
+              </tr>
+              <tr>
+                <td>Stars</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>Known planets</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Known dwarf planets</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Known natural satellites</td>
+                <td>525</td>
+              </tr>
+              <tr>
+                <td>Known minor planets</td>
+                <td>778,897</td>
+              </tr>
+              <tr>
+                <td>Known comets</td>
+                <td>4,017</td>
+              </tr>
+            </table>
+
+            <h4 id="biggestObjects">The biggest objects</h4>
+            <a href="http://i.imgur.com/1tyBzUG.jpg"><img src="pictures/biggest-objects.jpg" width="100%"></a>
+            <p class="comment">Click on the picture to see it in higher resolution.</p>
+
+            <h4 id="system3D">Solar system in 3D</h4>
+            <p>Check out online 3D simulation of the Solar System and night sky in real-time on the <a href="https://www.solarsystemscope.com/">Solar System Scope</a>.</p>
 
           </div>
         </div>

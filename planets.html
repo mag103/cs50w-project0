@@ -8,7 +8,7 @@
     <body>
       <header class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
 
-        <a class="navbar-brand" href="#">Project0</a>
+        <a class="navbar-brand" href="home.html">Project0</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,37 +16,60 @@
         <div class="navbar-nav-scroll" id="navbarNav">
             <ul class="navbar-nav bd-navbar-nav flex-row">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Solar System</a>
+                <a class="nav-link" href="solarSystem.html">Solar System</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sun</a>
+                <a class="nav-link" href="sun.html">Sun</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Planets<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="planets.html">Planets<span class="sr-only">(current)</span></a>
               </li>
             </ul>
           </div>
 
       </header>
 
+      <img src="pictures/banner-planets.png" width="100%">
+
       <div class="container">
-        <div class="row">
-          <div class="col-2">
-            page content
+        <div class="row" id="content">
+          <div class="col-12 col-sm-3 py-3 px-lg-2">
+            <h5>Page content</h5>
+            <p><a href="#dwarfStar">Yellow dwarf star</a></p>
+            <p><a href="#sunSize">Size and distance</a></p>
+            <p><a href="#sunStructure">Structure</a></p>
           </div>
           <div class="col-sm">
-            <h1>Title</h1>
 
-            <div class="intro">
-              <h4>Webpage information</h4>
-              <p>text</p>
+            <h4 id="atmospheres">Atmospheres of the Solar System</h4>
+            <a href="https://www.universetoday.com/wp-content/uploads/2014/07/The-Chemistry-of-the-Solar-System-v3.png"><img src="pictures/atmospheres.png" width="100%"></a>
+            <p class="comment">Click on the picture to see it in higher resolution.</p>
+
+            <h4 id="8planets">Eight planets</h4>
+            <div class="container">
+              <div class="row">
+                <div class="col-6 col-lg-3">
+                  <div class="card">
+                    <img src="pictures/jupiter.jpg" class="card-img-top">
+                    <h5 class="card-title">Jupiter</h5>
+                    <div class="card-body">
+                      <a href="https://en.wikipedia.org/wiki/Jupiter" class="btn btn-primary">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3">col</div>
+                <div class="col-6 col-lg-3">col</div>
+                <div class="col-6 col-lg-3">col</div>
+                <div class="col-6 col-lg-3">col</div>
+                <div class="col-6 col-lg-3">col</div>
+                <div class="col-6 col-lg-3">col</div>
+                <div class="col-6 col-lg-3">col</div>
+              </div>
             </div>
 
-            <h4>Webpage content</h4>
-            <p>text</p>
 
           </div>
         </div>
