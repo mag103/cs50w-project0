@@ -1,9 +1,11 @@
+$standard-margin: 50px;
+
 body {
-  margin-bottom: 50px;
+  margin-bottom: $standard-margin;
 }
 
 #content {
-  margin-top: 50px;
+  margin-top: $standard-margin;
 }
 
 h5 {
@@ -20,19 +22,20 @@ p {
 }
 
 ol > li {
-  text-decoration: underline;
-}
+      text-decoration: underline;
+  }
 
 @media (min-width: 800px) {
   table {
-    width: 70%;
+      width: 70%;
   }
-}
+  }
 @media (max-width: 799px) {
   table {
-    width: 90%;
+      width: 90%;
   }
-}
+  }
+
 table {
   margin-bottom: 30px;
 }
@@ -45,12 +48,12 @@ th, td {
 
 .cardsTable {
   text-align: center;
-}
-.cardsTable h5 {
-  margin: 10px;
-}
-.cardsTable a {
-  font-size: 15px;
+  h5 {
+    margin: 10px;
+  }
+  a {
+    font-size: 15px;
+  }
 }
 
 .comment {
@@ -59,28 +62,30 @@ th, td {
   font-style: italic;
 }
 
-a:active, a:hover, a:visited, a:link {
+%linkBackground {
   background-color: transparent;
 }
 
 a:link {
+  @extend %linkBackground;
   color: #800080;
   text-decoration: none;
 }
 
 a:visited {
+  @extend %linkBackground;
   color: #c299ff;
   text-decoration: none;
 }
 
 a:hover {
+  @extend %linkBackground;
   color: #9933ff;
   text-decoration: underline;
 }
 
 a:active {
+  @extend %linkBackground;
   color: #cc00ff;
   text-decoration: underline;
 }
-
-/*# sourceMappingURL=styles.css.map */
