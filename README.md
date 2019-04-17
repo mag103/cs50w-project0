@@ -17,3 +17,4 @@ Visit webpage here: https://mag103.github.io/cs50w-project0/home.html
 + CSS file
 + SCSS file
 + SCSS-CSS map file
+3. Folder "pictures" with all pictures displayed on the pages
